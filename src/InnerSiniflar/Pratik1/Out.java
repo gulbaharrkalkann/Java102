@@ -1,4 +1,4 @@
-package NestedVeInnerSiniflar.InnerSınıflar;
+package InnerSiniflar.Pratik1;
 
 public class Out {
     public int a=5;
