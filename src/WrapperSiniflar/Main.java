@@ -5,6 +5,6 @@ Wrapper sınıflar sayesinde, ilkel veri tiplerini (int,byte,sort vs.) nesne (ob
  */
 public class Main {
     public static void main(String[] args) {
-Integer b=20;
+Integer b=30;
     }
 }
