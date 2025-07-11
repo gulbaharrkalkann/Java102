@@ -1,0 +1,5 @@
+Jenerikler sayesinde, sınıf, arayüz veya metot yazarken tek bir türe bağlı kalmayıp üzerinde işlem yapacağınız türü parametre olarak alabilirsiniz. Bu sayede, farklı türler üzerinde çalışan tek bir sınıf yazmak mümkündür. Bu şekilde yazılan sınıflara jenerik sınıf, metotlara jenerik metot denir.
+
+Örneğin pratik 1 de string ve integer için ayrıayrı iki sınıf yazamamız gerekti
+pratik 2 ye geldiğimzde jenerikler sayesinde tek bir sınıf ve metot yazarak işi hallettik
+Pratik 3 te de birden fazal obje kullanarak işlemleri hallettik
