@@ -1,0 +1,60 @@
+#  LinkedList ve ArrayList Arasındaki Farklar (Java)
+
+Java'da `ArrayList` ve `LinkedList`, `List` arayüzünü uygulayan iki yaygın koleksiyon sınıfıdır. Ancak yapıları ve performansları bakımından farklılık gösterirler.
+
+---
+
+## 🔧 Temel Veri Yapısı
+
+- **ArrayList**: Dinamik dizi (array) tabanlıdır.
+- **LinkedList**: Çift bağlı liste (doubly linked list) tabanlıdır.
+
+---
+
+## ⚡ Erişim Performansı (`get(index)`, `set(index)`)
+
+- **ArrayList**: Rastgele erişim çok hızlıdır. `O(1)`
+- **LinkedList**: Rastgele erişim yavaştır. `O(n)`
+
+---
+
+## ➕ Ekleme ve Silme İşlemleri
+
+| İşlem             | ArrayList      | LinkedList     |
+|------------------|----------------|----------------|
+| Sonuna ekleme     | Hızlı (`O(1)`) |  Hızlı (`O(1)`) |
+| Başa/ortaya ekleme |  Yavaş (`O(n)`) |  Daha iyi (`O(1)` başa) |
+| Silme (indexten)  |  Yavaş (`O(n)`) |  Daha iyi (bağlantı güncellemesi) |
+
+---
+
+## 📦 Bellek Kullanımı
+
+- **ArrayList**: Daha az bellek kullanır.
+- **LinkedList**: Her eleman için `next` ve `prev` referansları içerdiğinden daha fazla bellek tüketir.
+
+---
+
+## 🎯 Ne Zaman Hangisi?
+
+- **ArrayList** → Elemanlara hızlıca erişmek gerekiyorsa ve veri yapısı çok değişmiyorsa.
+- **LinkedList** → Listenin başına/ortasına sıkça eleman ekleniyor veya siliniyorsa.
+
+---
+
+## 📊 Özet Tablo
+
+| Özellik             | ArrayList      | LinkedList     |
+|---------------------|----------------|----------------|
+| Veri Yapısı         | Dizi           | Çift Bağlı Liste |
+| get(index)          |  Çok Hızlı    |  Yavaş       |
+| Ortaya Ekleme       |  Zayıf        |  Daha iyi    |
+| Bellek Kullanımı    |  Verimli      |  Fazla       |
+| Kullanım Alanı      | Erişim ağırlıklı | Ekleme/silme ağırlıklı |
+
+---
+
+## 💡 Not
+
+ArrayList ve LinkedList kullanımı, uygulamanın gereksinimlerine göre dikkatli bir şekilde seçilmelidir. Performans ve bellek farkları kritik olabilir.
+

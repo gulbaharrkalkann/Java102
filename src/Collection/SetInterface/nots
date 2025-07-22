@@ -1,0 +1,9 @@
+    // SetInterface, Collection Framework'ün bir parçasıdır ve benzersiz elemanlar içeren bir koleksiyon sağlar.
+        // SetInterface, Collection arayüzünden türetilmiştir ve elemanların sırasını garanti etmez.
+        // SetInterface, elemanların benzersiz olmasını sağlar, yani aynı elemandan birden fazla kez eklenemez.
+
+        // SetInterface örnekleri: HashSet, LinkedHashSet, TreeSet
+
+        // HashSet: Elemanları hash tablosu kullanarak depolar. Hızlı erişim sağlar.
+        // LinkedHashSet: Elemanları ekleme sırasına göre depolar. Ekleme sırası korunur.
+        // TreeSet: Elemanları sıralı olarak depolar. Doğal sıralama veya belirli bir Comparator kullanabilir.
