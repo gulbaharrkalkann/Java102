@@ -1,4 +1,4 @@
-package Odev;
+package Collection.Odev;
 
 import java.util.*;
 

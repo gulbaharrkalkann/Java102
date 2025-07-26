@@ -1,4 +1,4 @@
-package Odev;
+package Collection.Odev;
 
 public class Book  implements Comparable<Book>{
     private String name;
